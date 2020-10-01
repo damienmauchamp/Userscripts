@@ -124,7 +124,6 @@ function callbackFunction(responseDetails) {
         buttons = document.createElement("div");
         buttons.classList.add("button-content");
         document.getElementsByClassName('bottom-metadata')[0].appendChild(buttons);
-        console.log(buttons);
 
         // Stylize our button
         var btnsCSS = document.createElement("style");
